@@ -36,4 +36,4 @@ clean:
 	rm -f cpdb/*.o
 
 
-#nvcc --shared CudaSurf.cu cpdb/*.cpp -Icpdb/ SmoothMesh.cpp -o QuickSES.dll -use_fast_math -O3 --compiler-options "-fPIC"
+#nvcc --shared CudaSurf.cu cpdb/*.cpp -Icpdb/ SmoothMesh.cpp -o QuickSES.so -use_fast_math -O3 --compiler-options "-fPIC"
